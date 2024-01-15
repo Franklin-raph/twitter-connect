@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: 'Figtree', sans-serif;
 }
+
 .modal-bg{
   position: fixed;
   width: 100%;
@@ -91,4 +92,45 @@
   padding: 12px;
   border-radius: 5px;
   width: 40%;
+}
+
+.steps p{
+  text-align: left;
+  padding: .1rem 0;
+}
+
+.tabBtns{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 20px;
+}
+
+.tabBtns div{
+  background-color: #232A2A;
+  ;
+  padding: 2px 10px;
+  border-radius: 50px;
+}
+
+
+.tabBtns div.active{
+  background-color: #848585;
+  padding: 2px 10px;
+  border-radius: 50px;
+}
+
+.est{
+  font-size: 30px;
+  background: linear-gradient(to right, #59F8E8, #20A4F3 );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.close-modal{
+  position: fixed;
+  top: 8%;
+  right: 13%;
+  cursor: pointer;
 }

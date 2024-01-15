@@ -1,12 +1,13 @@
 import { useState } from 'react'
 import './App.css'
+import SecondModal from './SecondModal'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <div class="modal-bg">
+      {/* <div class="modal-bg">
           <div class="modal">
               <div class="modal-header">
                   <h4>You have to connect your wallet and twitter account to continue. 🤝🏻</h4>
@@ -31,7 +32,8 @@ function App() {
                   </div>
               </div>
           </div>
-      </div>
+      </div> */}
+      <SecondModal />
     </>
   )
 }
