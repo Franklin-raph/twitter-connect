@@ -6,7 +6,6 @@ function App() {
 
   return (
     <>
-      <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, eos?</h1>
       <div class="modal-bg">
           <div class="modal">
               <div class="modal-header">
