@@ -109,7 +109,6 @@
 
 .tabBtns div{
   background-color: #232A2A;
-  ;
   padding: 2px 10px;
   border-radius: 50px;
 }
@@ -133,4 +132,25 @@
   top: 8%;
   right: 13%;
   cursor: pointer;
+}
+
+.est2-container p, .est2-container span{
+  text-align: left;
+  padding: .3rem 0;
+}
+
+.est2-container span{
+  color: #848585;
+}
+
+.est2-container{
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.vr{
+  padding: 1px;
+  background-color: #4f4f4f7a;
 }
